@@ -324,7 +324,7 @@ public class SimpleDraggableSortableAdapter extends RecyclerView.Adapter<SimpleD
     }
 
     public void addItemsToAdapter(List<ModelObject> modelsToAdd) {
-        modelObjects.addAll(modelsToAdd); 
+        modelObjects.addAll(modelsToAdd);
 
         for (int i = 0; i < modelObjects.size(); i++) {
             modelObjects.get(i).setPosition(i + 1);
