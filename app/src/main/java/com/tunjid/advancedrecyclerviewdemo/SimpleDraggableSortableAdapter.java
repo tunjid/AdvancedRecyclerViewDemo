@@ -303,7 +303,7 @@ public class SimpleDraggableSortableAdapter extends RecyclerView.Adapter<SimpleD
                     if (adapterListener != null) {
                         adapterListener.onModelObjectRemoved(position);
                     }
-                    break; 
+                    break;  
 
                 // If left, reverse the title String
                 case RecyclerViewSwipeManager.AFTER_SWIPE_REACTION_MOVE_TO_SWIPED_DIRECTION:
